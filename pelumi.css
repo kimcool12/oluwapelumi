@@ -166,42 +166,52 @@ header .header-cases{
 
 /*footer*/
 footer{
-	width: 100%;
-	padding: 50px 50px;
-	background-color: black;
-	margin-top: 20px;
-	overflow: auto;
+	background: #211f1fe3;
+	color: #f2f2f2;
+	padding: 3px;
+	margin-top: 2rem;
+	
+	
 }
 footer ul{
-	
-	font-size: 24px;
-	color: #111;
-	font-weight: 300;
-	display: block;
-	margin: 0 auto;
-	text-align: left;
+	 list-style: none;
+	 width: 10%;
+}
 
+footer ul li{
+	margin-top: 16px;
+	font-size: px;
+	font-weight: 60;
+	text-transform: capitalize;
+	transition: color 0.3s ease;
 }
-footer li{
-	display: block;
-    list-style: none;
-    color: #fff;
+footer ul li:hover {
+  color: #656565; /* lighter dim effect on hover */
 }
+
+
 footer ul li a{
-	font-family: catamaran;
+	color: rgb(232, 236, 232);
+	  transition: color 0.3s ease;
 
-	font-size: 16px;
-	color: ghostwhite;
-	float: right;
-	line-height: 30px;
 }
+
+
+footer ul li a:hover {
+  color: #656565; /* lighter dim effect on hover */
+}
+
 .footer-sm{
-	float: right;
-	width: 40px;
-}
-.footer-sm img{
-	width: 50%;
-	margin-bottom: 10px;
-	text-align: right;
+	margin-left: 1.8rem;
 }
 
+.footer-sm a{
+	margin-left: 9px;
+	color: aliceblue;
+	font-size: 20px;
+	font-weight: 100;
+	transition: color 0.3s ease;
+}
+.footer-sm a:hover {
+  color: #656565; /* lighter dim effect on hover */
+}
